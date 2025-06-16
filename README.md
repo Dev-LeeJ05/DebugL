@@ -1,5 +1,11 @@
+# DebugL (Debug Log System)
 **DebugL 시스템은 정적(static) 클래스로, 프로젝트 어디에서든 쉽게 사용할 수 있습니다.**
-# 🚀 사용법 (Usage)
+## Unity Package
+###### [Download Install](https://github.com/Dev-LeeJ05/DebugL/releases/tag/v1.0.0)
+
+## Git UPM  
+###### [https://github.com/Dev-LeeJ05/DebugL.git](https://github.com/Dev-LeeJ05/DebugL.git) 을 유니티 패키지에 추가해서 설치할 수 있습니다.
+## 🚀 사용법 (Usage)
 
 ### 1. 초기화 (Initialization)
 게임을 시작할 때 ``DebugL`` 시스템을 **한 번만 초기화**해야 합니다. 보통 ``GameManager``와 같은 스크립트의 ``Awake()`` 또는 ``Start()`` 메서드에서 호출하는 것이 좋습니다.
@@ -60,7 +66,7 @@ public class MyGameScript : MonoBehaviour
 DebugL.ClearLogs();
 ```
 
-# ⚙️ 설정 (Configuration)
+## ⚙️ 설정 (Configuration)
 ``DebugL`` 시스템의 동작은 다음 **정적(static) 속성**들을 통해 설정할 수 있습니다. 이 설정들은 ``DebugL.Initialize()`` 메서드를 **호출하기 전에** 변경해야 합니다.
 
 - ``DebugL.LogFilePath``: (string) 로그 파일이 저장될 폴더 경로를 설정합니다. ``null`` 또는 경로를 지정하지 않으면 유니티의 ``Application.persistentDataPath``를 기본 경로로 사용합니다.
