@@ -1,7 +1,7 @@
 {
-  "name": "com.devleej05.debugx",
+  "name": "com.devleej05.debugl",
   "version": "1.0.0",
-  "displayName": "DebugX System",
+  "displayName": "DebugL System",
   "description": "A custom debug logging system for Unity.",
   "unity": "2021.3"
 }
