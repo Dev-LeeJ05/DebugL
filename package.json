@@ -1,7 +1,19 @@
 {
-  "name": "com.devleej05.debugl",
+  "name": "com.dev-leej05.debugl",
   "version": "1.0.0",
-  "displayName": "DebugL System",
-  "description": "A custom debug logging system for Unity.",
-  "unity": "2021.3"
+  "displayName": "DebugL",
+  "description": "A lightweight, customizable logging system for Unity, with console prefixing and file logging.",
+  "unity": "2021.3",
+  "keywords": [
+    "debug",
+    "logging",
+    "log",
+    "utility",
+    "tools"
+  ],
+  "author": {
+    "name": "DevLeeJ05",
+    "url": "https://github.com/Dev-LeeJ05"
+  },
+  "type": "tool"
 }
