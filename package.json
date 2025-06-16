@@ -1,0 +1,7 @@
+{
+  "name": "com.devleej05.debugx",
+  "version": "1.0.0",
+  "displayName": "DebugX System",
+  "description": "A custom debug logging system for Unity.",
+  "unity": "2021.3"
+}
